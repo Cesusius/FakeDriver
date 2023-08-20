@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Imports.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Atapi.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="IDA_Defs.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp" />
+  </ItemGroup>
+</Project>
